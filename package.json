@@ -1,0 +1,22 @@
+{
+  "name": "ux-indexdb-store",
+  "version": "0.0.1",
+  "description": "",
+  "main": "build/index.js",
+   "scripts": {
+     "dev": "tsc", 
+     "build": "tsc"
+   },
+   "repository": {
+     "type": "git",
+     "url": "git@github.com/houqiangxie/ux-indexdb-store.git"
+   },
+   "files": ["build"],
+  "keywords": ["indexdb"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.4"
+  }
+}

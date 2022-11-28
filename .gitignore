@@ -1,0 +1,13 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+/src/*.d.ts
+/dist
+/test
+/prod
+.history
+# package-lock.json
+/.vscode
+package-lock.json
