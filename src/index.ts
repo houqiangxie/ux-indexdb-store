@@ -40,7 +40,7 @@ const getValue = async (
 ): Promise<any> => {
   let { expire = null, value = null } = (await data|| {});
   if (!expire || (expire && expire >= Date.now())) return value;
-  else return value;
+  else return null;
 };
 // 设置存储的value值
 const setValue = (data: any, expire?: number): any => {
